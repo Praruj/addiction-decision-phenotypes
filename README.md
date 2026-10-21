@@ -74,7 +74,7 @@ the best *predictor* of choices, carries almost no group information (0.50). Mos
 choices predictable is individual style, not diagnosis. One short task is not a screening
 tool.
 
-**4. LLM players.** See [LLM experiment](#llm-experiment-chain-of-thought) below.
+**4. A small LLM plays like an exaggerated substance user, and reasoning first made it more confident, not better.** See [LLM experiment](#llm-experiment-chain-of-thought) (pilot, 3 games).
 
 ## LLM experiment: chain-of-thought
 
@@ -85,10 +85,34 @@ reason in 2–3 sentences first. The deck is always read from the model's probab
 "I choose deck", so there is no text parsing. Its 100 choices then go through the same model
 fits and the same human-trained classifier ("how substance-user-like is this player?").
 
-- **PC pilot** (`Qwen2.5-0.5B-Instruct`, laptop CPU): results in `outputs/llm_results.json`
-  once it finishes. At 0.5B the reasoning is often incoherent ("pick the worst deck").
-- **Full run** (`Qwen2.5-3B-Instruct`, 10 games per condition): one click in the
-  [Colab notebook](notebooks/colab_run.ipynb) on a free T4 GPU.
+**Pilot result** (`Qwen2.5-0.5B-Instruct` on the laptop CPU, 2 direct games + 1 chain-of-thought
+game; ~1 h per direct game, 2.3 h for the reasoning game). Too few games for statistics, so
+these are observations only:
+
+| player | games | mean net score | "substance-user-like" (human-trained classifier) |
+|---|---|---|---|
+| people: control | 48 | +8.5 | 56%* |
+| people: amphetamine | 38 | −1.2 | 64%* |
+| people: heroin | 43 | −5.3 | 69%* |
+| LLM, direct answer | 2 | −54 | 65% |
+| LLM, chain-of-thought | 1 | −46 | 77% |
+
+<sub>* in-sample for people, so only a reference point.</sub>
+
+- The small LLM played **far worse than every human group**. It stuck with deck A (big wins, bigger
+  losses) and never learned to switch to C/D.
+- **Chain-of-thought made it more confident, not better.** Its average top-choice probability
+  rose from 0.49 to 0.85. The reasoning chases recent wins ("deck B has the highest win rate so
+  far") and ignores the rare large losses.
+- In ORL terms, the reasoning player learned from rewards **5.4× faster** than from punishments
+  (Arew 0.77 vs Apun 0.14). The ratio is 2.6× for controls and 4.3× for heroin users.
+
+![LLM learning](outputs/figures/llm_learning.png)
+![LLM parameters](outputs/figures/llm_orl_params.png)
+
+**Full run:** `Qwen2.5-3B-Instruct`, 10 games per condition, one click in the
+[Colab notebook](notebooks/colab_run.ipynb) on a free T4 GPU. A 0.5B model can't really reason,
+so whether chain-of-thought helps a capable model is still an open question here.
 
 ## Run it
 

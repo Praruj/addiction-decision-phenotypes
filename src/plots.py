@@ -47,7 +47,7 @@ def plot_learning(curves: pd.DataFrame, path: Path, extra: pd.DataFrame | None =
     ax.set_xlabel("trial")
     ax.set_ylabel("share of good-deck (C, D) picks")
     ax.set_title("Learning to avoid the bad decks")
-    ax.set_ylim(0.2, 1)
+    ax.set_ylim(0.2 if extra is None else 0, 1)
     ax.legend(loc="lower right", fontsize=8)
     _save(fig, path)
 
@@ -59,7 +59,9 @@ def _strip(ax, P: pd.DataFrame, col: str, groups: pd.Series, order: list[str]) -
         ax.scatter(i + rng.uniform(-0.18, 0.18, len(v)), v, s=14, color=COLORS[g], alpha=0.55,
                    edgecolor=SURFACE, linewidth=0.5)
         ax.hlines(np.median(v), i - 0.3, i + 0.3, color=INK, lw=2)
-    ax.set_xticks(range(len(order)), [o.replace("LLM ", "LLM\n") for o in order], fontsize=8)
+    short = {"control": "ctrl", "amphetamine": "amph", "heroin": "heroin",
+             "LLM direct": "LLM\ndirect", "LLM chain-of-thought": "LLM\nCoT"}
+    ax.set_xticks(range(len(order)), [short.get(o, o) for o in order], fontsize=8)
     ax.grid(axis="x", visible=False)
 
 
