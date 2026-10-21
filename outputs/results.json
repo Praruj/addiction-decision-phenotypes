@@ -1,0 +1,708 @@
+{
+  "n": {
+    "control": 48,
+    "amphetamine": 38,
+    "heroin": 43
+  },
+  "n_choices": 12883,
+  "behaviour_tests": [
+    {
+      "feature": "net_score",
+      "kruskal_H": 7.120452733740554,
+      "kruskal_p": 0.028432387835015182,
+      "amphetamine_vs_control_p": 0.10276107489464098,
+      "amphetamine_vs_control_r": -0.20614035087719296,
+      "amphetamine_median": 2.0000000000000018,
+      "heroin_vs_control_p": 0.008968984174307925,
+      "heroin_vs_control_r": -0.3187984496124031,
+      "heroin_median": -6.000000000000005,
+      "control_median": 6.000000000000005,
+      "kruskal_p_holm": 0.25589149051513665
+    },
+    {
+      "feature": "net_block1",
+      "kruskal_H": 0.5881743659099806,
+      "kruskal_p": 0.7452115188687713,
+      "amphetamine_vs_control_p": 0.9265555010973309,
+      "amphetamine_vs_control_r": -0.01206140350877194,
+      "amphetamine_median": -2.999999999999999,
+      "heroin_vs_control_p": 0.6055201521168165,
+      "heroin_vs_control_r": 0.0629844961240309,
+      "heroin_median": -1.9999999999999996,
+      "control_median": -2.999999999999999,
+      "kruskal_p_holm": 1.0
+    },
+    {
+      "feature": "net_block5",
+      "kruskal_H": 7.517986786471589,
+      "kruskal_p": 0.023307189745621956,
+      "amphetamine_vs_control_p": 0.10084227283870692,
+      "amphetamine_vs_control_r": -0.20668859649122806,
+      "amphetamine_median": 0.0,
+      "heroin_vs_control_p": 0.007393731118211483,
+      "heroin_vs_control_r": -0.32558139534883723,
+      "heroin_median": -1.9999999999999996,
+      "control_median": 2.0000000000000018,
+      "kruskal_p_holm": 0.23307189745621956
+    },
+    {
+      "feature": "p_A",
+      "kruskal_H": 2.3953706467632894,
+      "kruskal_p": 0.3018921865933067,
+      "amphetamine_vs_control_p": 0.4861753213475447,
+      "amphetamine_vs_control_r": -0.08826754385964908,
+      "amphetamine_median": 0.17,
+      "heroin_vs_control_p": 0.398810880427268,
+      "heroin_vs_control_r": 0.10319767441860472,
+      "heroin_median": 0.2,
+      "control_median": 0.185,
+      "kruskal_p_holm": 1.0
+    },
+    {
+      "feature": "p_B",
+      "kruskal_H": 6.598149087966802,
+      "kruskal_p": 0.03691731694993802,
+      "amphetamine_vs_control_p": 0.04041331235101729,
+      "amphetamine_vs_control_r": 0.25877192982456143,
+      "amphetamine_median": 0.3,
+      "heroin_vs_control_p": 0.021280083416075853,
+      "heroin_vs_control_r": 0.28100775193798455,
+      "heroin_median": 0.33,
+      "control_median": 0.26,
+      "kruskal_p_holm": 0.2607179458208529
+    },
+    {
+      "feature": "p_C",
+      "kruskal_H": 1.2745283865989463,
+      "kruskal_p": 0.5287369692871703,
+      "amphetamine_vs_control_p": 0.9930538302869525,
+      "amphetamine_vs_control_r": -0.00164473684210531,
+      "amphetamine_median": 0.235,
+      "heroin_vs_control_p": 0.3623056889577654,
+      "heroin_vs_control_r": -0.11143410852713176,
+      "heroin_median": 0.20212765957446807,
+      "control_median": 0.225,
+      "kruskal_p_holm": 1.0
+    },
+    {
+      "feature": "p_D",
+      "kruskal_H": 6.847515330068644,
+      "kruskal_p": 0.03258974322760661,
+      "amphetamine_vs_control_p": 0.07029540052861352,
+      "amphetamine_vs_control_r": -0.22861842105263153,
+      "amphetamine_median": 0.27,
+      "heroin_vs_control_p": 0.01128120363033403,
+      "heroin_vs_control_r": -0.30910852713178294,
+      "heroin_median": 0.25,
+      "control_median": 0.29,
+      "kruskal_p_holm": 0.2607179458208529
+    },
+    {
+      "feature": "win_stay",
+      "kruskal_H": 1.2533698095423182,
+      "kruskal_p": 0.5343603233356516,
+      "amphetamine_vs_control_p": 0.6231849564129905,
+      "amphetamine_vs_control_r": -0.0625,
+      "amphetamine_median": 0.2739370334307043,
+      "heroin_vs_control_p": 0.4891772393602345,
+      "heroin_vs_control_r": 0.0847868217054264,
+      "heroin_median": 0.3670886075949367,
+      "control_median": 0.316017316017316,
+      "kruskal_p_holm": 1.0
+    },
+    {
+      "feature": "lose_shift",
+      "kruskal_H": 2.1859170259839993,
+      "kruskal_p": 0.33522326280969633,
+      "amphetamine_vs_control_p": 0.6535230790475345,
+      "amphetamine_vs_control_r": -0.05701754385964908,
+      "amphetamine_median": 0.8110119047619048,
+      "heroin_vs_control_p": 0.14966696952140277,
+      "heroin_vs_control_r": -0.1758720930232558,
+      "heroin_median": 0.7727272727272727,
+      "control_median": 0.8248081841432224,
+      "kruskal_p_holm": 1.0
+    },
+    {
+      "feature": "switch_rate",
+      "kruskal_H": 1.3349495002496576,
+      "kruskal_p": 0.5130024027368211,
+      "amphetamine_vs_control_p": 0.6447267183855865,
+      "amphetamine_vs_control_r": 0.05866228070175428,
+      "amphetamine_median": 0.7323232323232323,
+      "heroin_vs_control_p": 0.4643776043811524,
+      "heroin_vs_control_r": -0.08963178294573648,
+      "heroin_median": 0.6565656565656566,
+      "control_median": 0.7070707070707071,
+      "kruskal_p_holm": 1.0
+    },
+    {
+      "feature": "money",
+      "kruskal_H": 9.483343855282401,
+      "kruskal_p": 0.008724048008317647,
+      "amphetamine_vs_control_p": 0.1681006574899423,
+      "amphetamine_vs_control_r": -0.17434210526315785,
+      "amphetamine_median": -945.0,
+      "heroin_vs_control_p": 0.002423180372464395,
+      "heroin_vs_control_r": -0.3701550387596899,
+      "heroin_median": -1410.0,
+      "control_median": -602.5,
+      "kruskal_p_holm": 0.09596452809149411
+    }
+  ],
+  "behaviour_means": {
+    "amphetamine": {
+      "net_score": -1.211,
+      "net_block1": -2.789,
+      "net_block5": 1.484,
+      "p_A": 0.178,
+      "p_B": 0.328,
+      "p_C": 0.226,
+      "p_D": 0.268,
+      "win_stay": 0.318,
+      "lose_shift": 0.782,
+      "switch_rate": 0.7,
+      "money": -1021.711
+    },
+    "control": {
+      "net_score": 8.521,
+      "net_block1": -2.583,
+      "net_block5": 5.0,
+      "p_A": 0.193,
+      "p_B": 0.264,
+      "p_C": 0.23,
+      "p_D": 0.312,
+      "win_stay": 0.337,
+      "lose_shift": 0.793,
+      "switch_rate": 0.685,
+      "money": -685.938
+    },
+    "heroin": {
+      "net_score": -5.349,
+      "net_block1": -2.465,
+      "net_block5": -0.153,
+      "p_A": 0.201,
+      "p_B": 0.326,
+      "p_C": 0.218,
+      "p_D": 0.255,
+      "win_stay": 0.372,
+      "lose_shift": 0.743,
+      "switch_rate": 0.652,
+      "money": -1411.163
+    }
+  },
+  "model_comparison": {
+    "mean_bic": {
+      "pvl_delta": 270.99,
+      "vpp": 265.95,
+      "orl": 255.39
+    },
+    "mean_bic_by_group": {
+      "amphetamine": {
+        "pvl_delta": 270.3,
+        "vpp": 266.27,
+        "orl": 254.41
+      },
+      "control": {
+        "pvl_delta": 271.84,
+        "vpp": 268.44,
+        "orl": 258.34
+      },
+      "heroin": {
+        "pvl_delta": 270.64,
+        "vpp": 262.87,
+        "orl": 252.97
+      }
+    },
+    "best_model_counts_by_group": {
+      "amphetamine": {
+        "orl": 24,
+        "pvl_delta": 13,
+        "vpp": 1
+      },
+      "control": {
+        "orl": 31,
+        "pvl_delta": 14,
+        "vpp": 3
+      },
+      "heroin": {
+        "orl": 32,
+        "pvl_delta": 9,
+        "vpp": 2
+      }
+    }
+  },
+  "best_model": "orl",
+  "param_tests": {
+    "pvl_delta": [
+      {
+        "feature": "A",
+        "kruskal_H": 3.023841041114281,
+        "kruskal_p": 0.22048612294684108,
+        "amphetamine_vs_control_p": 0.3409905340391093,
+        "amphetamine_vs_control_r": 0.1206140350877194,
+        "amphetamine_median": 0.10634246004046967,
+        "heroin_vs_control_p": 0.09425297569247923,
+        "heroin_vs_control_r": 0.2044573643410852,
+        "heroin_median": 0.13197365366293826,
+        "control_median": 0.07187703340354844,
+        "kruskal_p_holm": 0.6614583688405232
+      },
+      {
+        "feature": "alpha",
+        "kruskal_H": 0.928961272424317,
+        "kruskal_p": 0.6284614205480036,
+        "amphetamine_vs_control_p": 0.34988212622874293,
+        "amphetamine_vs_control_r": -0.11842105263157898,
+        "amphetamine_median": 0.5825108646873144,
+        "heroin_vs_control_p": 0.5068270428100157,
+        "heroin_vs_control_r": -0.08139534883720934,
+        "heroin_median": 0.573155098735847,
+        "control_median": 0.6042132858881107,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "cons",
+        "kruskal_H": 1.0509521687690722,
+        "kruskal_p": 0.5912738011245011,
+        "amphetamine_vs_control_p": 0.5340979571069044,
+        "amphetamine_vs_control_r": -0.07894736842105265,
+        "amphetamine_median": 0.8687124922998758,
+        "heroin_vs_control_p": 0.29954265602275254,
+        "heroin_vs_control_r": -0.12693798449612403,
+        "heroin_median": 0.8768312054115661,
+        "control_median": 1.0081958284030519,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "lambda",
+        "kruskal_H": 3.9556242787982114,
+        "kruskal_p": 0.13837164424688275,
+        "amphetamine_vs_control_p": 0.7774686219730094,
+        "amphetamine_vs_control_r": 0.03618421052631571,
+        "amphetamine_median": 0.8589884424581402,
+        "heroin_vs_control_p": 0.10572060735238732,
+        "heroin_vs_control_r": -0.19767441860465118,
+        "heroin_median": 0.591967844677256,
+        "control_median": 0.8481310215709947,
+        "kruskal_p_holm": 0.553486576987531
+      }
+    ],
+    "vpp": [
+      {
+        "feature": "A",
+        "kruskal_H": 5.5438668200851,
+        "kruskal_p": 0.0625409704350737,
+        "amphetamine_vs_control_p": 0.08589584383040642,
+        "amphetamine_vs_control_r": 0.2171052631578947,
+        "amphetamine_median": 0.11950919832872672,
+        "heroin_vs_control_p": 0.02909860820319804,
+        "heroin_vs_control_r": 0.2664728682170543,
+        "heroin_median": 0.11580580433962921,
+        "control_median": 0.08602940531352328,
+        "kruskal_p_holm": 0.5003277634805896
+      },
+      {
+        "feature": "alpha",
+        "kruskal_H": 0.6317580754523533,
+        "kruskal_p": 0.7291476441904357,
+        "amphetamine_vs_control_p": 0.5003503988646159,
+        "amphetamine_vs_control_r": -0.08552631578947367,
+        "amphetamine_median": 0.5423949155012553,
+        "heroin_vs_control_p": 0.5119291071486064,
+        "heroin_vs_control_r": -0.08042635658914732,
+        "heroin_median": 0.5240327754910722,
+        "control_median": 0.5690252795427726,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "cons",
+        "kruskal_H": 0.18832678640899303,
+        "kruskal_p": 0.9101340403736485,
+        "amphetamine_vs_control_p": 0.6987775645312564,
+        "amphetamine_vs_control_r": -0.049342105263157854,
+        "amphetamine_median": 1.3253562398625864,
+        "heroin_vs_control_p": 0.7294893562117786,
+        "heroin_vs_control_r": -0.04263565891472865,
+        "heroin_median": 1.3609218053655727,
+        "control_median": 1.4250004688998898,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "lambda",
+        "kruskal_H": 3.4935406051635027,
+        "kruskal_p": 0.17433608799671932,
+        "amphetamine_vs_control_p": 0.9757193874705368,
+        "amphetamine_vs_control_r": 0.004385964912280604,
+        "amphetamine_median": 1.0857029021252953,
+        "heroin_vs_control_p": 0.10401765728565261,
+        "heroin_vs_control_r": -0.1986434108527132,
+        "heroin_median": 0.6405712092532707,
+        "control_median": 1.2038071210377774,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "epP",
+        "kruskal_H": 1.0900598602009381,
+        "kruskal_p": 0.5798244288767265,
+        "amphetamine_vs_control_p": 0.4571751655966887,
+        "amphetamine_vs_control_r": -0.0942982456140351,
+        "amphetamine_median": -0.10734695805551953,
+        "heroin_vs_control_p": 0.6648333075693877,
+        "heroin_vs_control_r": 0.05329457364341095,
+        "heroin_median": -0.03900186583138776,
+        "control_median": 0.02160849729943637,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "epN",
+        "kruskal_H": 2.9439521965040854,
+        "kruskal_p": 0.22947157846719124,
+        "amphetamine_vs_control_p": 0.7708101396503081,
+        "amphetamine_vs_control_r": 0.037280701754385914,
+        "amphetamine_median": -0.17182201480236392,
+        "heroin_vs_control_p": 0.08380472670994527,
+        "heroin_vs_control_r": 0.2112403100775193,
+        "heroin_median": 0.042321054089475396,
+        "control_median": -0.1717274591882667,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "K",
+        "kruskal_H": 1.2919696900028157,
+        "kruskal_p": 0.5241460851813273,
+        "amphetamine_vs_control_p": 0.6859457202384949,
+        "amphetamine_vs_control_r": -0.05153508771929827,
+        "amphetamine_median": 0.5012222176658538,
+        "heroin_vs_control_p": 0.2849737945563112,
+        "heroin_vs_control_r": -0.1308139534883721,
+        "heroin_median": 0.45309583529090214,
+        "control_median": 0.5993315006843776,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "w",
+        "kruskal_H": 0.08102262301758856,
+        "kruskal_p": 0.960298302027289,
+        "amphetamine_vs_control_p": 0.8721913428621524,
+        "amphetamine_vs_control_r": -0.02083333333333337,
+        "amphetamine_median": 0.38359917129328097,
+        "heroin_vs_control_p": 0.8269520849456412,
+        "heroin_vs_control_r": 0.027131782945736482,
+        "heroin_median": 0.4173649088688046,
+        "control_median": 0.39698264916203285,
+        "kruskal_p_holm": 1.0
+      }
+    ],
+    "orl": [
+      {
+        "feature": "Arew",
+        "kruskal_H": 4.306340079511926,
+        "kruskal_p": 0.11611548302795424,
+        "amphetamine_vs_control_p": 0.5867864103907838,
+        "amphetamine_vs_control_r": 0.06907894736842102,
+        "amphetamine_median": 0.18348815857994305,
+        "heroin_vs_control_p": 0.057964712993667754,
+        "heroin_vs_control_r": 0.23158914728682167,
+        "heroin_median": 0.23708924380081328,
+        "control_median": 0.17430089680487376,
+        "kruskal_p_holm": 0.5805774151397712
+      },
+      {
+        "feature": "Apun",
+        "kruskal_H": 4.054535734018259,
+        "kruskal_p": 0.13169483788574057,
+        "amphetamine_vs_control_p": 0.3151926919011304,
+        "amphetamine_vs_control_r": -0.1271929824561403,
+        "amphetamine_median": 0.06459930495195901,
+        "heroin_vs_control_p": 0.043882884932940416,
+        "heroin_vs_control_r": -0.24612403100775193,
+        "heroin_median": 0.05585104543872697,
+        "control_median": 0.0652661859252174,
+        "kruskal_p_holm": 0.5805774151397712
+      },
+      {
+        "feature": "K",
+        "kruskal_H": 0.026556445509072546,
+        "kruskal_p": 0.9868095439537959,
+        "amphetamine_vs_control_p": 0.9065464574729205,
+        "amphetamine_vs_control_r": 0.015350877192982448,
+        "amphetamine_median": 0.9594472885097551,
+        "heroin_vs_control_p": 0.9841440106687331,
+        "heroin_vs_control_r": -0.0029069767441860517,
+        "heroin_median": 0.6940745838776115,
+        "control_median": 0.8325646721819766,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "betaF",
+        "kruskal_H": 0.6865642076652421,
+        "kruskal_p": 0.7094380481357152,
+        "amphetamine_vs_control_p": 0.7181867558782892,
+        "amphetamine_vs_control_r": 0.046052631578947345,
+        "amphetamine_median": 1.7727181822130689,
+        "heroin_vs_control_p": 0.6476003153872727,
+        "heroin_vs_control_r": -0.05620155038759689,
+        "heroin_median": 1.0592666530680752,
+        "control_median": 1.6153097463571484,
+        "kruskal_p_holm": 1.0
+      },
+      {
+        "feature": "betaP",
+        "kruskal_H": 2.2635686832215924,
+        "kruskal_p": 0.322457368684171,
+        "amphetamine_vs_control_p": 0.5058953739485101,
+        "amphetamine_vs_control_r": -0.08442982456140347,
+        "amphetamine_median": -2.742244317708447,
+        "heroin_vs_control_p": 0.30326116802761505,
+        "heroin_vs_control_r": 0.12596899224806202,
+        "heroin_median": -1.0994951826765522,
+        "control_median": -2.106260166286817,
+        "kruskal_p_holm": 0.9673721060525131
+      }
+    ]
+  },
+  "forecast": {
+    "chance": {
+      "nll": 1.3862943611158907,
+      "nll_ci": [
+        1.3862943611158907,
+        1.3862943611158907
+      ],
+      "accuracy": 0.14776773059946793,
+      "accuracy_ci": [
+        0.13110672317324168,
+        0.16498810712217005
+      ],
+      "nll_by_group": {
+        "control": 1.3862943611158907,
+        "amphetamine": 1.3862943611158913,
+        "heroin": 1.386294361115891
+      }
+    },
+    "static_preference": {
+      "nll": 1.344160301988594,
+      "nll_ci": [
+        1.3136481193819667,
+        1.376295807764109
+      ],
+      "accuracy": 0.35900447545454384,
+      "accuracy_ci": [
+        0.32818689402222234,
+        0.39064333008501956
+      ],
+      "nll_by_group": {
+        "control": 1.3889047240239212,
+        "amphetamine": 1.2885248272072538,
+        "heroin": 1.3433792737094128
+      }
+    },
+    "pvl_delta": {
+      "nll": 1.3396026635451432,
+      "nll_ci": [
+        1.2932930614578777,
+        1.3882016158020833
+      ],
+      "accuracy": 0.38360116516751264,
+      "accuracy_ci": [
+        0.355066288929148,
+        0.4138890975937829
+      ],
+      "nll_by_group": {
+        "control": 1.3953518959331666,
+        "amphetamine": 1.2959075368414654,
+        "heroin": 1.315985260291995
+      }
+    },
+    "vpp": {
+      "nll": 1.5308768854619381,
+      "nll_ci": [
+        1.3580017453679945,
+        1.7882993879464213
+      ],
+      "accuracy": 0.43356696544111045,
+      "accuracy_ci": [
+        0.40174999603864175,
+        0.466560440643888
+      ],
+      "nll_by_group": {
+        "control": 1.5696475134507377,
+        "amphetamine": 1.3476877624469936,
+        "heroin": 1.6494861071155547
+      }
+    },
+    "orl": {
+      "nll": 1.3087708500834958,
+      "nll_ci": [
+        1.254355687047421,
+        1.3628458177095557
+      ],
+      "accuracy": 0.44307880285992457,
+      "accuracy_ci": [
+        0.41308333091250327,
+        0.4735555721345735
+      ],
+      "nll_by_group": {
+        "control": 1.3507182970591358,
+        "amphetamine": 1.281174807792559,
+        "heroin": 1.2863329931584933
+      }
+    },
+    "gru": {
+      "nll": 1.1890594186912593,
+      "nll_ci": [
+        1.1500874222293,
+        1.2275625718647767
+      ],
+      "accuracy": 0.48125987038435736,
+      "accuracy_ci": [
+        0.45465091850693773,
+        0.5092899727458551
+      ],
+      "nll_by_group": {
+        "control": 1.2187552671469548,
+        "amphetamine": 1.184925052835184,
+        "heroin": 1.1595641902414333
+      }
+    },
+    "gru_minus_best_theory": {
+      "model": "orl",
+      "nll_gain": 0.11971143139223664,
+      "ci": [
+        0.07685565169476184,
+        0.16681433353937153
+      ],
+      "share_people_gru_better": 0.689922480620155,
+      "wilcoxon_p": 1.7320503360492676e-06
+    }
+  },
+  "classification": {
+    "any substance vs control": {
+      "behaviour": {
+        "auc": 0.6047582304526748,
+        "auc_sd": 0.025024028339143904
+      },
+      "pvl_delta params": {
+        "auc": 0.5131044238683126,
+        "auc_sd": 0.03237110071458717
+      },
+      "vpp params": {
+        "auc": 0.5085390946502057,
+        "auc_sd": 0.029414986320940882
+      },
+      "orl params": {
+        "auc": 0.5404320987654321,
+        "auc_sd": 0.025176559888312477
+      },
+      "gru embedding": {
+        "auc": 0.5021347736625514,
+        "auc_sd": 0.029275389152100824
+      },
+      "behaviour + orl": {
+        "auc": 0.5689429012345679,
+        "auc_sd": 0.019048812150742247
+      },
+      "all": {
+        "auc": 0.4995498971193415,
+        "auc_sd": 0.0215014845934929
+      }
+    },
+    "heroin vs control": {
+      "behaviour": {
+        "auc": 0.6620639534883721,
+        "auc_sd": 0.02403095891155328
+      },
+      "pvl_delta params": {
+        "auc": 0.5753391472868217,
+        "auc_sd": 0.023555432243280508
+      },
+      "vpp params": {
+        "auc": 0.5732073643410853,
+        "auc_sd": 0.02492302878042571
+      },
+      "orl params": {
+        "auc": 0.6281492248062015,
+        "auc_sd": 0.018227939288819908
+      },
+      "gru embedding": {
+        "auc": 0.49098837209302326,
+        "auc_sd": 0.03700021753030416
+      },
+      "behaviour + orl": {
+        "auc": 0.6680232558139534,
+        "auc_sd": 0.024147454022838716
+      },
+      "all": {
+        "auc": 0.5645348837209302,
+        "auc_sd": 0.03603022783816149
+      }
+    },
+    "amphetamine vs control": {
+      "behaviour": {
+        "auc": 0.5459429824561404,
+        "auc_sd": 0.034946346913354034
+      },
+      "pvl_delta params": {
+        "auc": 0.418969298245614,
+        "auc_sd": 0.046435982775284906
+      },
+      "vpp params": {
+        "auc": 0.39684758771929823,
+        "auc_sd": 0.060283157909718846
+      },
+      "orl params": {
+        "auc": 0.3984923245614035,
+        "auc_sd": 0.05329536051296067
+      },
+      "gru embedding": {
+        "auc": 0.5088815789473684,
+        "auc_sd": 0.035537820316142166
+      },
+      "behaviour + orl": {
+        "auc": 0.49470942982456145,
+        "auc_sd": 0.03444111718022456
+      },
+      "all": {
+        "auc": 0.4949287280701755,
+        "auc_sd": 0.0396381484160771
+      }
+    },
+    "heroin vs amphetamine": {
+      "behaviour": {
+        "auc": 0.5093941248470012,
+        "auc_sd": 0.03209520496054154
+      },
+      "pvl_delta params": {
+        "auc": 0.5157588739290087,
+        "auc_sd": 0.027352056375934745
+      },
+      "vpp params": {
+        "auc": 0.44785801713586293,
+        "auc_sd": 0.03500462202887735
+      },
+      "orl params": {
+        "auc": 0.5371175030599755,
+        "auc_sd": 0.024966306327866786
+      },
+      "gru embedding": {
+        "auc": 0.6298041615667076,
+        "auc_sd": 0.10041828938091485
+      },
+      "behaviour + orl": {
+        "auc": 0.5223072215422278,
+        "auc_sd": 0.03083233217023724
+      },
+      "all": {
+        "auc": 0.6016523867809057,
+        "auc_sd": 0.08498492438956326
+      }
+    }
+  },
+  "classification_permutation": {
+    "task": "any substance vs control",
+    "features": "behaviour",
+    "auc": 0.6047582304526748,
+    "p": 0.0499001996007984,
+    "null_mean": 0.491488683127572
+  }
+}
